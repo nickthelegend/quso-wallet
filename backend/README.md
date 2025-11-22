@@ -9,18 +9,18 @@ OAuth 2.0 authentication backend for Quso Wallet with Google and GitHub provider
 - JWT-based session tokens
 - State parameter validation for CSRF protection
 - Modular provider system for easy extensibility
+- CORS support for web and mobile clients
 
-## Setup
+## Table of Contents
 
-1. Install dependencies:
-```bash
-npm install
-```
-
-2. Copy `.env.example` to `.env` and configure your environment variables:
-```bash
-cp .env.example .env
-```
+- [Setup](#setup)
+- [Development](#development)
+- [Testing](#testing)
+- [Production](#production)
+- [Environment Variables](#environment-variables)
+- [API Endpoints](#api-endpoints)
+- [OAuth Flow](#oauth-flow)
+- [Client In
 
 3. Configure OAuth credentials:
    - Create OAuth apps in Google Cloud Console and GitHub
